@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""Defines a locked class."""
+""" module for locked class """
 
 
 class LockedClass:
-
-
+    """ class that just allow attr called first_name """
     __slots__ = ["first_name"]
